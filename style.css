@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Charm&family=Cinzel&family=Cormorant+Unicase&family=Dancing+Script&family=Ephesis&family=Great+Vibes&family=Kalam&family=Lora&family=Mate+SC&family=Petit+Formal+Script&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300&family=Ysabeau+SC:wght@100;300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kalam', cursive;
+    color: #333333
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+    padding: 1rem 0rem;
+    background-color: #f2c94c;
+}
+
+main {
+    width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.1rem;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+#translate-btn {
+    background-color: #f2c94c;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    margin: 1.5rem 0rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+#output {
+    border: 1px solid black;
+    padding: 1rem;
+    font-size: large;
+    font-family: inherit;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 1rem;
+    background-color: #f2c94c;
+}
+
+footer p {
+    width: 600px;
+    margin: auto;
+}
